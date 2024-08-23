@@ -213,7 +213,7 @@ def menu_pg():
 
                     #Upi payment
                         def upi():
-                            qrim = Image.open(r"C:\Users\devan\OneDrive\Desktop\DT payment QR code.jpeg")
+                            qrim = Image.open(r"") #upload UPI QR CODE HERE
                             qrim.show()
 
                         Button(fm, text="UPI", font=("Helvetica Bold",10), bg="grey" ,pady=10, height= 1, width=25, command=upi).grid()
@@ -433,7 +433,7 @@ def menu_pg():
 
                     #Upi payment
                         def upi():
-                            qrim = Image.open(r"C:\Users\devan\OneDrive\Desktop\DT payment QR code.jpeg")
+                            qrim = Image.open(r" ") #upload UPI QR CODE HERE
                             qrim.show()
 
                         Button(fm, text="UPI", font=("Helvetica Bold",10), bg="grey" ,pady=10, height= 1, width=25, command=upi).grid()
